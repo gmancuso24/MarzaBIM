@@ -153,6 +153,7 @@ activemq-data/
 *.sage.py
 
 # Environments
+# includes utility/.venv (Python 3.14 virtual environment)
 .env
 .envrc
 .venv

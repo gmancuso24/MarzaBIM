@@ -1,0 +1,4 @@
+# Python dependencies for MarzaBIM utility scripts
+# Activate environment: source utility/.venv/bin/activate
+# Install: pip install -r utility/requirements.txt
+

@@ -25,6 +25,8 @@ MarzaBIM/
 ├── acropoli/              # Acropolis area
 ├── analysis/              # Jupyter notebooks for IFC data analysis
 ├── utility/
+│   ├── .venv/             # Python 3.14 virtual environment (git-ignored)
+│   ├── requirements.txt   # Python dependencies
 │   └── textures/          # Shared texture assets
 └── README.md
 ```
@@ -42,6 +44,13 @@ Each subfolder containing data includes its own `README.md` with context-specifi
 - **Semantic structure:** IFC spatial hierarchy (`IfcSite` → `IfcBuilding` → `IfcBuildingStorey` → `IfcSpace`); property sets document archaeological phasing and source references
 
 The `analysis/` folder contains Jupyter notebooks (Python / IfcOpenShell) for quantitative queries on the IFC models: surface areas, volumes, element counts, and stratigraphic relationships.
+
+A shared Python 3.14 virtual environment is maintained in `utility/.venv/`. To activate it and install dependencies:
+
+```bash
+source utility/.venv/bin/activate
+pip install -r utility/requirements.txt
+```
 
 ---
 

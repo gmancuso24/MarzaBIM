@@ -2,7 +2,7 @@
 
 **IFC-native BIM reconstructions of the Etruscan urban settlement of Marzabotto (ancient Kainua, Italy, 6th–4th century BCE). Open archaeological dataset produced at CNR-ISPC using Bonsai/BlenderBIM and IfcOpenShell.**
 
-> Part of an open digital archaeology framework for ancient Kainua. For the associated GIS data of the settlement, see [MarzaGIS](../MarzaGIS).
+> Part of an open digital archaeology framework for ancient Kainua. For the associated GIS data of the settlement, see [MarzaGIS](https://github.com/gmancuso24/MarzaGIS).
 
 ---
 
@@ -49,7 +49,7 @@ The `analysis/` folder contains Jupyter notebooks (Python / IfcOpenShell) for qu
 
 | Repository | Content |
 |---|---|
-| [MarzaGIS](../MarzaGIS) | GIS data for the Marzabotto/Kainua settlement (QGIS, GeoPackage) |
+| [MarzaGIS](https://github.com/gmancuso24/MarzaGIS) | GIS data for the Marzabotto/Kainua settlement (QGIS, GeoPackage) |
 
 ---
 

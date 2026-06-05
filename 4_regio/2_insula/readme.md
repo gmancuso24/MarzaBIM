@@ -26,10 +26,10 @@ Four construction phases were identified during excavation. Each phase is modell
 
 | File | Phase |
 |---|---|
-| `C1-F1.ifc` | Phase 1 |
-| `C1-F2.ifc` | Phase 2 |
-| `C1-F3.ifc` | Phase 3 |
-| `C1-F4.ifc` | Phase 4 |
+| `C1_F1.ifc` | Phase 1 |
+| `C1_F2.ifc` | Phase 2 |
+| `C1_F3.ifc` | Phase 3 |
+| `C1_F4.ifc` | Phase 4 |
 
 ---
 

@@ -6,9 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
-# Mac Files
+# macOS
 .DS_Store
-.gitignore
+.AppleDouble
+.LSOverride
 
 # Distribution / packaging
 .Python

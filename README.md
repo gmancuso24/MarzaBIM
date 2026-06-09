@@ -18,18 +18,22 @@ The repository is organised following the topographic structure of the site: reg
 
 ```
 MarzaBIM/
-├── 1_regio/               # Regio I (in progress)
+├── 1_regio/               # Regio I (in progress; subfolders not tracked in git)
+│   └── 4_insula/          # Insula 4 (in progress; subfolders not tracked in git)
 ├── 4_regio/               # Regio IV
-│   ├── 1_insula/          # Insula 1
+│   ├── 1_insula/          # Insula 1 (Isolato Mansuelli)
 │   └── 2_insula/          # Insula 2
-├── acropoli/              # Acropolis area
+├── 5_regio/               # Regio V
+│   └── 3_insula/          # Insula 3
+├── acropolis/             # Acropolis area
 ├── analysis/              # Jupyter notebooks for IFC data analysis
 ├── utility/
-│   ├── .venv/             # Python 3.14 virtual environment (git-ignored)
 │   ├── requirements.txt   # Python dependencies
 │   └── textures/          # Shared texture assets
 └── README.md
 ```
+
+> **Note:** the subfolders of `1_regio/` are present in the working copy but are **not tracked in the git repository**. Their contents (models in progress) are therefore not available through the remote repository and will be added in a future release.
 
 Each subfolder containing data includes its own `README.md` with context-specific documentation (sources, phasing, modelling conventions).
 
@@ -45,9 +49,10 @@ Each subfolder containing data includes its own `README.md` with context-specifi
 
 The `analysis/` folder contains Jupyter notebooks (Python / IfcOpenShell) for quantitative queries on the IFC models: surface areas, volumes, element counts, and stratigraphic relationships.
 
-A shared Python 3.14 virtual environment is maintained in `utility/.venv/`. To activate it and install dependencies:
+Python dependencies are listed in `utility/requirements.txt`. To set up a virtual environment (git-ignored) and install them:
 
 ```bash
+python -m venv utility/.venv
 source utility/.venv/bin/activate
 pip install -r utility/requirements.txt
 ```
